@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/zoom.css" />
+		<link rel="stylesheet" href="assets/css/added.css" />
 
 
 		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="logo/apple-touch-icon-57x57.png" />
@@ -35,7 +37,6 @@
 
 
 
-
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -53,8 +54,23 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="projectinfo.html">Project Information</a></li>
 								<li><a href="requirements.html">Requirements</a></li>
-								<li><a href="preliminarydesign.html">Preliminary Design</a></li>
-								<li class="current"><a href="cad.html">CAD Model</a></li>
+								<li><a href="preliminarydesign.html">Preliminary Design</a>
+
+									<ul>
+										<li><a href="preliminarydesign.html">Preliminary Design</a></li>
+										<li><a href="design-process.html">Design Process</a></li>
+									</ul>
+
+								</li>
+
+								<li class="current"><a href="cad.html">CAD Model</a>
+									<ul>
+										<li><a href="cad.html">Final Model</a></li>
+										<li><a href="cad-process.html">Modeling Process</a></li>
+									</ul>
+
+								</li>
+
 								<li><a href="finaldesign.html">Final Design</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
 							</ul>
@@ -66,23 +82,7 @@
 				<section class="wrapper style1">
 					<div class="container">
 						<div class="row gtr-200">
-							<div class="col-4 col-12-narrower">
-								<div id="sidebar">
 
-									<!-- Sidebar -->
-
-										<section>
-											<div class="sidebarstyle">
-											<h3>Task:</h3>
-											<p>
-												Create an assembly of the system.
-											</p>
-										</div>
-										</section>
-
-
-								</div>
-							</div>
 							<div class="col-8  col-12-narrower imp-narrower">
 								<div id="content">
 
@@ -91,16 +91,37 @@
 										<article>
 											<header>
 												<h2>CAD Model</h2>
-												<p>The assembly created using SolidWorks.
+												<p>The assembly created using SolidWorks.</p>
+												<p>See the process <a href="cad-process.html">HERE</a></p>
 											</header>
 
+											<img src="images/cad/finalmodel.jpg" alt="Final model">
 
-										<a href="#" class="button">Download the model</a>
 										</article>
 
 								</div>
 							</div>
-						</div>
+
+
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+										<section>
+											<div class="sidebarstyle">
+											<h3>Downloads:</h3>
+											<p>Made in SolidWorks 2016.</p>
+											<a href="#" class="button">Download assembly and parts</a>
+										</div>
+										</section>
+
+
+								</div>
+							</div>
+
+
+						</div><!--gtr 200-->
 					</div>
 				</section>
 
@@ -133,6 +154,8 @@
 				<script src="assets/js/breakpoints.min.js"></script>
 				<script src="assets/js/util.js"></script>
 				<script src="assets/js/main.js"></script>
+				<script src="assets/js/zoom.js"></script>
+				<script src="assets/js/added.js"></script>
 
 		</body>
 	</html>

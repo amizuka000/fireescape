@@ -172,9 +172,9 @@ input, select, textarea {
 	}
 
 	hr {
-		border-top: solid 1px #e0e0e0;
-		border: 0;
-		margin-bottom: 1.5em;
+		border-top: solid 1px #474747;
+		/*border: 0;*/
+		margin-bottom: 1em;
 	}
 
 	blockquote {
@@ -3385,7 +3385,8 @@ padding-top:0px;
 .sidebarstyle {
 
 	background-color: #eee;
-	padding:10%;
+	padding:7%;
+	margin-bottom:5%;
 
 }
 .sidebarstyle p{
