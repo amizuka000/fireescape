@@ -3,3 +3,5 @@ https://codepen.io/ccrch/pen/yyaraz
 https://www.w3schools.com/howto/howto_js_accordion.asp
 https://www.w3schools.com/howto/howto_css_two_columns.asp
 #474747 - dark gray
+#2895d5 - water blue
+#e25822 - flame

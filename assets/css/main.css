@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em #e0e0e0;
+		/*border-left: solid 0.5em #e0e0e0;*/
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -1963,7 +1963,8 @@ input, select, textarea {
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
-		margin-bottom: 2.25em;
+		/*margin-bottom: 2.25em;*/
+		margin-bottom:1.5em;
 	}
 
 	header.major {
@@ -2674,7 +2675,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/dummyimage.png");
+		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2734,6 +2735,7 @@ input, select, textarea {
 			background-size: 100% 6em,						100% 6em,						auto;
 			background-repeat: no-repeat,						no-repeat,						repeat;
 		}
+
 
 		.wrapper.style3 {
 			background-color: #ce2029;
@@ -3363,23 +3365,6 @@ input, select, textarea {
 
 
 
-	.cardLGP {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
-
-.titleLGP {
-  color: grey;
-  font-size: 18px;
-}
-
-.cardLGP p {
-text-align: left;
-padding:30px;
-padding-top:0px;
-}
 
 
 .sidebarstyle {

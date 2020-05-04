@@ -1,3 +1,25 @@
+
+	.cardLGP {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.titleLGP {
+  color: grey;
+  font-size: 18px;
+}
+
+.cardLGP p {
+text-align: left;
+padding:30px;
+padding-top:0px;
+overflow-wrap: normal;
+
+}
+
+
 .twocolumn {
   float: left;
   width: 50%;
@@ -60,4 +82,44 @@
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #ffa334;
+  color: #474747;
+  font-weight: bold;
+  margin:2%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #474747;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: white;
+}
+
+.contentheader header{
+  background-color:#eee;
+  padding:1% 5%;
+  margin:0 -2% 2% -2%
+}
+
+.dog #banner {
+  background-image: url("../../images/dummyimage.png");
+  background-position: center center;
+  background-size: cover;
+  height: 28em;
+  text-align: center;
+  position: relative;
 }
