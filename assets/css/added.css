@@ -46,6 +46,19 @@ overflow-wrap: normal;
   max-height:500px;
 }
 
+.fullimg img{
+  float: left;
+  max-width: 100%;
+}
+
+.centerimg img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:100%;
+  max-height:500px;
+}
+
 /* Clear floats after the columns */
 .tworow:after {
   content: "";
