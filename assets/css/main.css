@@ -56,7 +56,8 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background-color: yellow;
+	padding:0.2em;
 	color: inherit;
 }
 
@@ -2445,7 +2446,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #1eb8fb;
+			background-color: #e8353f;
 			color: #fff;
 		}
 
