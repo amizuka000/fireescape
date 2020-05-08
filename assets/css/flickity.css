@@ -1,0 +1,238 @@
+/*! Flickity v2.2.0
+https://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+          tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* ---- flickity-button ---- */
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #ce2029;
+}
+
+/* smaller, dark, rounded square */
+.flickity-prev-next-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: #474747;
+
+
+}
+.flickity-prev-next-button:hover {
+  background: #ce2029;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  float:left;
+}
+.flickity-prev-next-button.next {
+  float:right;
+}
+
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -15%;
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots { direction: rtl; }
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+  opacity: 1;
+}
+
+
+
+
+.carousel {
+  background: #fff;
+  margin:50px;
+}
+
+
+.carousel-cell {
+  width: 50%; /* full width */
+  height: 70vh;
+  background: white;
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.carousel-cell img {
+  display: block;
+  max-height: 100%;
+  max-width:100%;
+}
+
+
+.carousel-image {
+  display: block;
+  /* set min-width,
+     allow images to determine cell width */
+  min-width: 50%;
+  max-width: 100%;
+  margin-right: 10px;
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+
+.caption {
+  background: #fff;
+  padding: 3% 10%;
+  text-align: left;
+  color:#474747;
+}
+
+.flickity-button-icon {
+  height:20px;
+}
+
+
+
+
+/*ALISA*/
+
+.flickity-button.flickity-prev-next-button.next,
+.flickity-button.flickity-prev-next-button.previous,
+ button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-color: #474747;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0;
+  line-height: 0em;
+  min-width: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+
+
+.flickity-button.flickity-prev-next-button.next:hover,
+.flickity-button.flickity-prev-next-button.previous:hover,
+ button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+  background-color: #ce2029;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0;
+  line-height: 0em;
+  min-width: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+
+
+
+
+
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
