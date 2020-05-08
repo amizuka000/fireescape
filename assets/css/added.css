@@ -292,3 +292,31 @@ overflow-wrap: normal;
 .dotactive, .dot:hover {
   background-color: #717171;
 }
+
+
+
+/*TABLE*/
+
+#customers {
+  font-family: inherit;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #474747;
+  color: white;
+	font-weight: bold;
+}
