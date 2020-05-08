@@ -90,9 +90,26 @@ overflow-wrap: normal;
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .activeaccordion, .accordion:hover {
   background-color: #bbb;
-  color:#444;
+  color:#474747;
 
 }
+
+.accordion:after {
+	content: '\002B';
+   color: white;
+   font-weight: bold;
+   float: right;
+   margin-left: 5px;
+	 padding-right:20px;
+}
+
+.activeaccordion:after {
+  content: "\2212";
+	color:#474747;
+}
+
+
+
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
