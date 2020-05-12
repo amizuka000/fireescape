@@ -59,6 +59,14 @@ overflow-wrap: normal;
   max-height:500px;
 }
 
+.centersmallimg img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:100%;
+  max-height:200px;
+}
+
 .twoimg img{
 	max-width:50%;
 }

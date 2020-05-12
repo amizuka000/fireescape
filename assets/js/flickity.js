@@ -1,3 +1,4 @@
+
 //INITIALIZE FLICKITY
 var elem = document.querySelector('.carousel');
 var flkty = new Flickity( elem, {
@@ -7,7 +8,13 @@ var flkty = new Flickity( elem, {
   cellAlign: 'left',
   wrapAround:true,
   fullscreen: true,
-});
+  pageDots:false,
+
+
+  }
+);
+
+
 
 
 //CAPTION

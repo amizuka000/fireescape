@@ -84,12 +84,18 @@ https://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -15%;
+  bottom: -100px;
   padding: 0;
   margin-bottom: 20px;
   list-style: none;
   text-align: center;
   line-height: 1;
+
+  white-space:nowrap;
+  overflow:hidden;
+
+
+
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }
@@ -151,7 +157,7 @@ https://flickity.metafizzy.co
 
 .caption {
   background: #fff;
-  padding: 3% 10%;
+  padding: 2% 10%;
   text-align: left;
   color:#474747;
 }
@@ -159,6 +165,8 @@ https://flickity.metafizzy.co
 .flickity-button-icon {
   height:20px;
 }
+
+
 
 
 
