@@ -363,7 +363,7 @@ overflow-wrap: normal;
 
 #div1 a {
 	color: #000;
-	border-bottom: dotted 0px; 
+	border-bottom: dotted 0px;
 }
 
 
@@ -381,7 +381,7 @@ overflow-wrap: normal;
 .doorright:hover{
 	transition: transform 1s;
 	transform-origin: right ;
-	transform: perspective(50em) rotateY(-45deg);
+	transform: perspective(70em) rotateY(60deg);
 	position: relative;
 }
 
@@ -398,7 +398,7 @@ overflow-wrap: normal;
 .doorleft:hover{
 	transition: transform 1s;
 	transform-origin: left;
-	transform: perspective(50em) rotateY(45deg);
+	transform: perspective(70em) rotateY(-60deg);
 	position: relative;
 }
 
