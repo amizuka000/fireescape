@@ -320,6 +320,10 @@ overflow-wrap: normal;
 
 
 
+
+
+
+
 /*TABLE*/
 
 #customers {
@@ -344,4 +348,89 @@ overflow-wrap: normal;
   background-color: #474747;
   color: white;
 	font-weight: bold;
+}
+
+
+
+/*HOVER DOOR*/
+#div1 {
+	padding:2em;
+	display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+#div1 a {
+	color: #000;
+	border-bottom: dotted 0px; 
+}
+
+
+.doorright{
+	height:19em;
+	width:13em;
+	background-image: url("../../images/doorright.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+.doorright:hover{
+	transition: transform 1s;
+	transform-origin: right ;
+	transform: perspective(50em) rotateY(-45deg);
+	position: relative;
+}
+
+.doorleft{
+	height:19em;
+	width:13em;
+	background-image: url("../../images/doorleft.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.doorleft:hover{
+	transition: transform 1s;
+	transform-origin: left;
+	transform: perspective(50em) rotateY(45deg);
+	position: relative;
+}
+
+.doorborderright{
+	height:19em;
+	width:13em;
+	background-image: url("../../images/smokeandwater.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	display:inline-block;
+	text-align: center;
+}
+
+.doorborderleft{
+	height:19em;
+	width:13em;
+	background-image: url("../../images/fire.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	display:inline-block;
+	text-align: center;
+}
+
+
+#brickwall {
+	background-image: url("../../images/brickwall.png");
+	background-position: center center;
+	background-repeat: repeat;
+	height: 28em;
+	text-align: center;
+	position: relative;
 }
