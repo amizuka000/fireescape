@@ -437,3 +437,13 @@ overflow-wrap: normal;
 	text-align: center;
 	position: relative;
 }
+
+
+#banner2 {
+	background-image: url("../../images/bannerfireescape_semester2.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 28em;
+	text-align: center;
+	position: relative;
+}
