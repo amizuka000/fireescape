@@ -108,6 +108,41 @@
 										<p>Controlled testing to ensure the system works as intended.</p>
 									</header>
 
+									<div style="overflow-x:auto;">
+								<table id="customers">
+								<tr>
+									<th>Weight (lbs)</th>
+									<th>Speed (ft/s)</th>
+									<th>Free Fall Speed (ft/s)</th>
+								</tr>
+								<tr>
+									<td>0.35 (combination lock)</td>
+									<td>7 ft / infinity = 0 </td>
+									<td>21.223</td>
+								</tr>
+								<tr>
+									<td>1.10 (combination lock, stapler)</td>
+									<td>7 ft / 120 s = 0.0583</td>
+									<td>21.223</td>
+								</tr>
+								<tr>
+									<td>1.20 (water bottle)</td>
+									<td>7 ft / 120 = 0.0583</td>
+									<td>21.223</td>
+								</tr>
+								<tr>
+									<td>1.95 (stapler, water bottle)</td>
+									<td>7 ft / 90 s = 0.0778</td>
+									<td>21.223</td>
+								</tr>
+								<tr>
+									<td>2.94 (lock, stapler, water bottle, umbrella)</td>
+									<td>7 ft / 120 s = 0.0583</td>
+									<td>21.223</td>
+								</tr>
+
+								</table>
+								</div>
 
 <!--BRAKING SYSTEM STARTS-->
 												<button class="accordion">Test 1: Lock (0.35 lbs)</button>
@@ -133,9 +168,14 @@
 																  that the system has a minimum weight that it must hold in order to work.
 															</p>
 															<p>
+																The speed is therefore 0 ft/s.
+															</p>
+															<p>
 																This aligns well with our initial unscaled design plan that the system was not meant to be used for
 																people lighter than 50 lbs.
 															</p>
+
+
 
 														</div>
 
@@ -163,13 +203,12 @@
 															<div class="twocolumn">
 
 																<p>
-																	In order to increase the weight, we added a stapler.
+																	In order to increase the weight, we added a stapler. The whole system did move down, although
+																	much slower than expected.
 
 																</p>
 																<p>
-																	</p>
-																<p>
-
+																	The speed is approximated to be 0.0583 ft/s.
 																</p>
 
 															</div>
@@ -196,15 +235,13 @@
 																	<div class="twocolumn">
 
 																		<p>
-																			We then used a filled water bottle to test.
+																			We then used a filled water bottle to test. With a similar weight to the lock and stapler, the
+																			water bottle and system fell slowly as expected.
 
 																		</p>
 																		<p>
-																			</p>
-																		<p>
-
+																			The speed is approximated to be 0.0583 ft/s.
 																		</p>
-
 																	</div>
 																</div> <!--row end-->
 
@@ -228,14 +265,14 @@
 																			<div class="twocolumn">
 
 																				<p>
-																					In order to increase the weight, we added a stapler.
+																					In order to increase the weight, we added a stapler with the water bottle. Again, the whole system
+																					came down slowly, which suggests that this sytem is weight-independent as we intended it to be.
 
 																				</p>
 																				<p>
-																					</p>
-																				<p>
-
+																					The speed is approximated to be 0.0778 ft/s.
 																				</p>
+
 
 																			</div>
 																		</div> <!--row end-->
@@ -260,12 +297,13 @@
 
 																						<p>
 																							Our heaviest weight was composed of a combination lock, stapler, water bottle, and umbrella.
+																							Although the weight is approximately one pound heavier than the last test, the speed calculated
+																							was the same. Therefore, this confirms that this system is weight-independent.
 
 																						</p>
-																						<p>
-																							</p>
-																						<p>
 
+																						<p>
+																							The speed is approximated to be 0.0583 ft/s.
 																						</p>
 
 																					</div>
@@ -276,7 +314,20 @@
 
 																						<br clear=all><br>
 
-
+																						<p>
+																							However, the speeds that have been seen in all of our tests are much slower than our initial design of
+																							3 ft/s, which could be due to the scaled design and lack of modified friction calculation for this revised
+																							system. Therefore, we propose a few modifications:<br><br>
+																							1) use a different brake pad with a lower coefficient of friction<br>
+																							2) use a lubricant<br>
+																							3) use a different rope
+																						</p>
+																						<p>
+																							We did design the unscaled initial system so that it will not fall down without an initial force,
+																							which we planned to add using a lubricant in the previous semester. Therefore, this system is actually
+																							working as it should, and any movement that occurs in the tests could be considered a byproduct of
+																						impact force from the weights being dropped initially.
+																						</p>
 
 								</article>
 
