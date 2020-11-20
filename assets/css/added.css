@@ -283,6 +283,13 @@ overflow-wrap: normal;
   padding-left:0px;
 }
 
+
+.columnsix {
+  width: 6.25%;
+	margin:auto;
+  padding-left:0px;
+}
+
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
