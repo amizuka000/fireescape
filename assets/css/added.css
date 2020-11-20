@@ -286,6 +286,7 @@ overflow-wrap: normal;
 
 .columnsix {
   width: 6.25%;
+	margin:auto;
   padding-left:0px;
 }
 
